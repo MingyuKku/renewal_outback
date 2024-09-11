@@ -1,0 +1,4 @@
+/* section2 */
+body.light .main_visual_tit>h2 {font-weight: 600;}
+body.light .main_visual_tit>p {font-family: 'S-CoreDream-4Regular'; color: #2A2A2C;}
+body.light .main_visual_t_bone_img {box-shadow: 0 0 50px rgba(0, 0, 0, 0);}

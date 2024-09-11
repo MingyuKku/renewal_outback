@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 구글폰트 Nanum Gothic, Roboto, Dancing Script -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- xeicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+ 
+  <!-- css -->
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/tablet.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="/css/parelex.css">
+  <link rel="stylesheet" href="/css/light_mode.css">
+
+  <link rel="shortcut icon" href="images/fabicon.png">  <!--파비콘-->
+
+  <!-- 카카오맵 지도 -->
+  <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+<!-- 제이쿼리    -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  
+  <title>아웃백</title>
+</head>
+<body class="stick">
+
+<!-- 로딩 -->
+  <div class="loading_wrap">
+    <div class="loading_bg">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>  <!--loading_bg-->
+    <div class="loading_logo_area">
+      <div class="loading_logo">
+        <h1><img src="images/loading_logo1.svg" alt="로딩로고"></h1>
+        <h2><p>STEAKHOUSE<span>&reg;</span></p></h2>
+      </div>
+      <div class="loading_txt">
+        <h2><span class="loading_span loading_span1">세계</span> <span class="loading_span loading_span2">최고의</span>
+          <span class="loading_span loading_span3">고급</span> <span class="loading_span loading_span4">레스트랑으로</span>
+          <span class="loading_span loading_span5">모시겠습니다</span></h2>
+        <p><span>Enter</span></p>
+      </div>
+    </div>  <!--loading_logo_area-->
+  </div>  <!--loading_wrap-->
+<!-- 로딩 -->
+
+  <header id="header">
+    <div class="nav_wrap">
+      <nav id="nav">
+        <div class="head_logo">
+          <a href="#a">
+            <img class="main_logo" src="/images/main_logo.svg" alt="해더로고">
+            <img class="scroll_logo" src="/images/main_logo2.svg" alt="해더로고"></a>
+          </a>
+          
+        </div>  <!--head_logo-->
+
+        <div class="gnb_menu">
+          <ul>
+            <li><a href="#a">BRAND</a> 
+                <ul>
+                  <li><a href="#a">OUTBACK STORY</a></li>
+                  <li><a href="#a">BEEF STORY</a></li>
+                  <li><a href="#a">STEAK ACADEMY</a></li>
+                  <li><a href="#a">OUTBACK CSR</a></li>
+                  <li><a href="#a">PRESS CENTER</a></li>
+                </ul>
+            </li>
+            <li><a href="#a">MENU</a>
+                <ul>
+                  <li><a href="#a">T-BONE STEAK</a></li>
+                  <li><a href="#a">TOMAHAWK STEAK</a></li>
+                  <li><a href="#a">BLACK LABEL STEAKS</a></li>
+                  <li><a href="#a">STEAK & FAVORITES</a></li>
+                  <li><a href="#a">LUNCH SET</a></li>
+                  <li><a href="#a">PASTA & SALADS</a></li>
+                  <li><a href="#a">WINES</a></li>
+                  <li><a href="#a">DESSERTS & OTHERS</a></li>
+                  <li><a href="#a">DELIVERY</a></li>
+                </ul>
+            </li>
+            <li><a href="#a">MEMBERSHIP</a>
+                <ul>
+                  <li><a href="#a">MEMBERSHIP BENEFIT</a></li>
+                  <li><a href="#a">BOOMERANG VIP</a></li>
+                </ul>
+            </li>
+            <li><a href="#a">BENEFIT</a>
+                <ul>
+                  <li><a href="#a">CREDIT CARDS</a></li>
+                  <li><a href="#a">SKT & KT</a></li>
+                  <li><a href="#a">POINT PAYMENT</a></li>
+                  <li><a href="#a">YOUCHER</a></li>
+                  <li><a href="#a">EVENT</a></li>
+                </ul>
+            </li>
+            <li><a href="#a">STORE</a></li>
+            <span class="highLight"><i class="xi-caret-down"></i></span>
+          </ul>
+        </div>  <!--gnb_menu-->
+
+        <div class="right_menu clearfix">
+          <div class="contact">CONTACT</div>
+          <div class="login"><span>LOGIN</span><span><i class="xi-user"></i></span></div>
+          <div class="burger_menu"><span></span><span></span><p>MENU</p></div>
+        </div>  <!--right_menu-->
+      </nav>
+    </div>
+    <div class="all_menu">
+      <ul>
+        <li>
+          <ul>
+            <li class="clearfix"><span>BRAND</span> <span class="all_menu_more_icon"><em></em><em></em></span>
+              <ul>
+                <li><a href="#a">OUTBACK STORY</a></li>
+                <li><a href="#a">BEEF STORY</a></li>
+                <li><a href="#a">STEAK ACADEMY</a></li>
+                <li><a href="#a">OUTBACK CSR</a></li>
+                <li><a href="#a">PRESS CENTER</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="all_menu_li_bg"></div>
+        </li>
+        <li>
+          <ul>
+            <li class="clearfix"><span>MENU</span> <span class="all_menu_more_icon"><em></em><em></em></span>
+              <ul>
+                <li><a href="#a">T-BONE STEAK</a></li>
+                <li><a href="#a">TOMAHAWK STEAK</a></li>
+                <li><a href="#a">BLACK LABEL STEAKS</a></li>
+                <li><a href="#a">STEAK & FAVORITES</a></li>
+                <li><a href="#a">LUNCH SET</a></li>
+                <li><a href="#a">PASTA & SALADS</a></li>
+                <li><a href="#a">WINES</a></li>
+                <li><a href="#a">DESSERTS & OTHERS</a></li>
+                <li><a href="#a">DELIVERY</a></li>
+              </ul>
+            </li> 
+          </ul>
+          <div class="all_menu_li_bg"></div>
+        </li>
+        <li>
+          <ul>
+            <li class="clearfix"><span>MEMBERSHIP</span> <span class="all_menu_more_icon"><em></em><em></em></span>
+              <ul>  
+                <li><a href="#a">MEMBERSHIP BENEFIT</a></li>
+                <li><a href="#a">BOOMERANG VIP</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="all_menu_li_bg"></div>
+        </li>
+        <li>
+          <ul>
+            <li class="clearfix"><span>BENEFIT</span> <span class="all_menu_more_icon"><em></em><em></em></span>
+              <ul>
+                <li><a href="#a">CREDIT CARDS</a></li>
+                <li><a href="#a">SKT & KT</a></li>
+                <li><a href="#a">POINT PAYMENT</a></li>
+                <li><a href="#a">YOUCHER</a></li>
+                <li><a href="#a">EVENT</a></li>
+              </ul>
+            </li>     
+          </ul>
+          <div class="all_menu_li_bg"></div>
+        </li>
+        <li>
+          <ul>
+            <li><span>STORE</span> <span class="all_menu_more_icon"><em></em><em></em></span>
+              <ul><li><a href="#a">STORE</a></li></ul>
+            </li>
+          </ul>
+          <div class="all_menu_li_bg"></div>
+        </li>
+      </ul>
+    </div>
+  </header> <!--header 끝-->
+
+  <section id="section1">
+    <div class="main_video">
+      <video loop="loop" muted="muted">
+        <!-- <source src="video/아웃백 블랙 라벨 스테이크 볼드 & 와일드 (60초).webm" type="video/webm"> -->
+        <!-- <source src="video/2021-09-16_Untitled.mp4" type="video/mp4"> -->
+        <source src="video/delivery_cf.mp4" type="video/mp4">
+      </video>
+      <div class="main_video_txt_area">
+        <h2>WE ARE<br> TEAM OUTBACK</h2>
+        <p>「No Rules, Just Right 」</p>
+        <div class="video_more">
+          <span><em class="play_animation_p">M</em><em class="play_animation_l">O</em><em class="play_animation_a">R</em><em class="play_animation_y">E</em>
+            <em class="play_animation_V">V</em><em class="play_animation_i">I</em><em class="play_animation_d">D</em><em class="play_animation_e">E</em><em class="play_animation_o">O</em></span>
+          <i class="xi-long-arrow-right"></i>
+        </div>
+      </div>
+      <div class="video_scroll">
+        <p>scroll</p>
+        <div><span></span></div>
+      </div>
+      <audio class="audio" loop>
+        <source src="audio/Another Humoresque_2.mp3" type="audio/mp3">
+      </audio>
+      <audio class="audio2" loop>
+        <source src="audio/Beethoven- Minuet In G Jazz Ver.mp3" type="audio/mp3">
+      </audio>
+      <div class="audio_visual">
+        <span class="audio_visual_left"></span>
+        <span class="audio_visual_middle"></span>
+        <span class="audio_visual_right"></span>
+      </div>  <!--audio_visual-->
+
+      <div class="brightness_mode_area">
+        <p class="light_font">LIGHT</p>
+        <div class="brightness_button">
+          <input type="checkbox" id="brightness">
+          <label for="brightness"><span></span></label>
+        </div>
+        <P class="dark_font">DARK</P>
+      </div>  <!--brightness_mode_area-->
+    </div>  <!--main_video-->
+    
+    <div class="video_bg">
+      <img src="images/video_bg.png" alt="배경이미지">
+      <img class="video_bg_tablet" src="images/video_bg_tablet.png" alt="배경이미지">
+    </div>
+  </section>  <!--section1-->
+
+  <section id="section2">
+    <div class="main_visual_wrap">
+      <div class="main_visual_tit">
+        <h2><span>Outback’s</span> Premium Steak & Dinner</h2>
+        <p>아웃백 프리미엄 스테이크 & 디너</p>
+      </div>
+      <div class="main_visual_t_bone_area">
+        <div class="main_visual_t_bone_img">
+          <img src="images/section1_img.png" alt="티본스테이크 이미지">
+          <img class="main_visual_t_bone_tablet_img"src="images/section1_tablet_img.png" alt="티본스테이크 이미지2">
+          <img class="fake_img" src="images/fake_img.png" alt="훼이크이미지">
+        </div>
+        <div class="main_visual_t_bone_txt_wrap">
+          <div class="main_visual_t_bone_txt">
+            <p>아웃백 티본 스테이크</p>
+            <h2>OUTBACK <br>T-BONE STEAK</h2>
+            <p>부드러운 안심과 풍미가 진한 등심을<br>
+              함께 즐길 수 있는 피렌체 오리지널 스타일의<br>
+              아웃백 프리미엄 스테이크</p>
+            <div class="main_visual_t_bone_txt_price1_wrap">
+              <div class="main_visual_t_bone_txt_price1">
+                <h3><span></span>티본 스테이크</h3>
+                <p>100g당</p>
+                <h4>30,000<span>원</span></h4>
+              </div>
+            </div>
+            
+            <div class="main_visual_t_bone_txt_price2_wrap">
+              <div class="main_visual_t_bone_txt_price2">
+                <h3><span></span>엘본 스테이크</h3>
+                <p>100g당</p>
+                <h4>24,000<span>원</span></h4>
+              </div>
+            </div>
+           
+            <div class="main_visual_viewMore main_visual_viewMore1">
+              <p>RESERVATION</p>
+              <p>RESERVATION</p>
+              <span><i class="xi-long-arrow-right"></i></span>
+            </div>
+          </div>  <!--main_visual_t_bone_txt-->
+        </div>  <!--main_visual_t_bone_txt wrap-->
+      </div>  <!--main_visual_t_bone_area-->
+
+      <div class="main_visual_tomahawk_area">
+        <div class="main_visual_tomahawk_txt_wrap">
+          <div class="main_visual_tomahawk_txt">
+            <p>아웃백 토마호크 스테이크</p>
+            <h2>OUTBACK <br>TOMAHAWK STEAK</h2>
+            <p>오직 황제만이 즐길 수 있었던 블랙 앵거스의<br>
+              단 1%의 부위, 3cm 이상의 두께에서 뿜어져 나오는<br>
+              압도적인 풍미가 가득한 예술적 스테이크</p>
+            <div class="main_visual_tomahawk_txt_price_wrap">
+              <div class="main_visual_tomahawk_txt_price">
+                <span></span>
+                <p>100g당</p>
+                <h4>22,000<span>원</span></h4>
+              </div>
+            </div>
+            <div class="main_visual_viewMore main_visual_viewMore2">
+              <p>RESERVATION</p>
+              <p>RESERVATION</p>
+              <span><i class="xi-long-arrow-right"></i></span>
+            </div>
+          </div>  <!--main_visual_tomahawk_txt-->
+        </div>  <!--main_visual_tomahawk_txt wrap-->
+        <div class="main_visual_tomahawk_img">
+          <img src="images/section2_img.png" alt="토마호크스테이크 이미지">
+          <img class="main_visual_tomahawk_tablet_img" src="images/section2_tablet_img.png" alt="토마호크스테이크 이미지2">
+          <img class="fake_img" src="images/fake_img.png" alt="훼이크이미지">
+        </div>
+      </div>  <!--main_visual_tomahawk_area-->
+
+      <div class="main_visual_black_area">
+        <div class="main_visual_black_img">
+          <img src="images/section3_img.png" alt="블랙라벨 이미지">
+          <img class="main_visual_black_tablet_img"src="images/section3_tablet_img.png" alt="블랙라벨 이미지2">
+          <img class="fake_img" src="images/fake_img.png" alt="훼이크이미지">
+        </div>
+        <div class="main_visual_black_txt_wrap">
+          <div class="main_visual_black_txt">
+            <p>아웃백 블랙라벨 스테이크</p>
+            <h2>OUTBACK <br>BLACK LABEL STEAK</h2>
+            <p>두툼하고 육즙이 가득한<br>
+              블랙라벨 스테이크와 시즈널 가니시의 만남<br>
+              뜨겁게 달궈진 핫 플레이트 위에서<br>
+              맛이 완성되는 프리미엄 스테이크를 즐기세요</p>
+            <div class="main_visual_black_txt_price1_wrap">
+              <div class="main_visual_black_txt_price1">
+                <h3><span></span>커플 세트</h3>
+                <h4>30,000<span>원</span></h4>
+              </div>
+            </div> 
+            
+            <div class="main_visual_black_txt_price2_wrap">
+              <div class="main_visual_black_txt_price2">
+                <h3><span></span>패밀리 세트</h3>
+                <h4>24,000<span>원</span></h4>
+              </div>
+            </div>
+            
+            <div class="main_visual_viewMore  main_visual_viewMore3">
+              <p>RESERVATION</p>
+              <p>RESERVATION</p>
+              <span><i class="xi-long-arrow-right"></i></span>
+            </div>
+          </div>  <!--main_visual_t_bone_txt-->
+        </div>  <!--main_visual_t_bone_txt wrap-->
+      </div>  <!--main_visual_t_bone_area-->
+
+      <div class="menu_slide_area">
+        <div class="menu_slide_wrap">
+          <ul class="menu_slider">
+            <li class="odd_menu_li"><a href="#a">
+              <div class="menu_slide_img">
+                <img src="images/menu_slide1.png" alt="메뉴이미지">
+              </div>
+              <div class="menu_slide_txt">
+                <h2><span></span>BABY BACK RIBS</h2>
+                <h3>배이비 백 립스</h3>
+                <p>부드러운 돼지갈비에 아웃백만의 특제소스를 발라 구워낸 바비큐 요리</p>
+              </div>
+            </a></li>
+            <li class="even_menu_li"><a href="#a">
+              <div class="menu_slide_img">
+                <img src="images/menu_slide2.png" alt="메뉴이미지">
+              </div>
+              <div class="menu_slide_txt">
+                <h2><span></span>AUSSIE CHEESE FRIES</h2>
+                <h3>오지 치즈 후라이즈</h3>
+                <p>두툼한 감자튀김에 체다치즈, 잭치즈를 듬뿍 녹여 베이컨을 뿌린 메뉴</p>
+              </div>
+            </a></li>
+            <li class="odd_menu_li"><a href="#a">
+              <div class="menu_slide_img">
+                <img src="images/menu_slide3.png" alt="메뉴이미지">
+              </div>
+              <div class="menu_slide_txt">
+                <h2><span></span>GOLD COAST COCONUT SHRIMP</h2>
+                <h3>골드 코스트 코코넛 슈림프</h3>
+                <p>달콤하고 고소한 코코넛 가루를 묻혀 바삭하게 튀긴 새우요리</p>
+              </div>
+            </a></li>
+            <li class="even_menu_li"><a href="#a">
+              <div class="menu_slide_img">
+                <img src="images/menu_slide4.png" alt="메뉴이미지">
+              </div>
+              <div class="menu_slide_txt">
+                <h2><span></span>GARLIC RIBEYE</h2>
+                <h3>갈릭 립아이</h3>
+                <p>발사믹 소스에 조리한 마늘이 어우러진 꽃등심 스테이크</p>
+              </div>
+            </a></li>
+            <li class="odd_menu_li"><a href="#a">
+              <div class="menu_slide_img">
+                <img src="images/menu_slide5.png" alt="메뉴이미지">
+              </div>
+              <div class="menu_slide_txt">
+                <h2><span></span>CRISPY KOOKABURRA WINGS</h2>
+                <h3>크리스피 쿠카부라 윙</h3>
+                <p>아웃백 시즈닝으로 바삭하고 특별한 맛을 즐길 수 있는 닭날개 요리</p>
+              </div>
+            </a></li>
+            <li class="even_menu_li"><a href="#a">
+              <div class="menu_slide_img">
+                <img src="images/menu_slide6.png" alt="메뉴이미지">
+              </div>
+              <div class="menu_slide_txt">
+                <h2><span></span>SHRIMP ARRABBIATA</h2>
+                <h3>슈림프 아라비아따</h3>
+                <p>갈릭 오일에 볶은 새우를 더하고 매콤하게 즐길 수 있는 정통 이탈리안 토마토 파스타</p>
+              </div>
+            </a></li>
+            <li class="odd_menu_li"><a href="#a">
+              <div class="menu_slide_img">
+                <img src="images/menu_slide7.png" alt="메뉴이미지">
+              </div>
+              <div class="menu_slide_txt">
+                <h2><span></span>TOOWOOMBA PASTA</h2>
+                <h3>투움바 파스타</h3>
+                <p>그라나 파나노 치즈와 새우, 양송이를 함께 볶아 깊고 진한 크림소스 파스타</p>
+              </div>
+            </a></li>
+            <li class="even_menu_li"><a href="#a">
+              <div class="menu_slide_img">
+                <img src="images/menu_slide8.png" alt="메뉴이미지">
+              </div>
+              <div class="menu_slide_txt">
+                <h2><span></span>CLASSIC CAESAR SALAD</h2>
+                <h3>클래식 시저 샐러드</h3>
+                <p>베이컨, 그라나 파다노 치즈가 어우러진 신선한 로메인에 부드러운 시저 드레싱을 곁들인 샐러드</p>
+              </div>
+            </a></li>
+          </ul>
+        </div>  <!--menu_slide_wrap-->
+        <span class="menu_slide_prev">
+          <img src="images/prev1.svg" alt="이전보기">
+          <img src="images/prev2.svg" alt="이전보기2">
+        </span>
+        <span class="menu_slide_next">
+          <img src="images/next1.svg" alt="다음보기">
+          <img src="images/next2.svg" alt="다음보기">
+        </span>
+        <div class="menu_slide_viewMore">
+          <p>VIEW ALL</p>
+          <p>VIEW ALL</p>
+          <span><i class="xi-long-arrow-right"></i></span>
+        </div>
+        <div class="menu_slide_bg"></div>
+      </div>  <!--menu_slide_area-->
+    </div>  <!--main_visual_wrap-->
+  </section>  <!--section2-->
+
+  <section id="section3">
+    <div class="videoGallery_wrap">
+      <div class="videoGallery_tit">
+        <h2>Outback’s Video CF Gallery</h2>
+        <p>아웃백 동영상 광고 갤러리</p>
+      </div>
+      <div class="videoGallery_slide_wrap">
+        <ul class="videoGallery_slider">
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img1.png" alt="동영상이미지1">
+              <iframe src="https://www.youtube-nocookie.com/embed/Km6mqryWUWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>
+            </div>
+            <h3>아웃백 브랜드 캠페인 WE ARE TEAM OUTBACK</h3>
+          </a></li>
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img2.png" alt="동영상이미지2">
+              <iframe src="https://www.youtube-nocookie.com/embed/hMmTf-o27n8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>
+            </div>
+            <h3>아웃백 티본스테이크</h3>
+          </a></li>
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img3.png" alt="동영상이미지2">
+              <iframe src="https://www.youtube-nocookie.com/embed/nToDwqOVBAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>
+            </div>
+            <h3>아웃백 브랜드 캠페인 NO RULES, JUST RIGHT</h3>
+          </a></li>
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img4.png" alt="동영상이미지2">
+              <iframe src="https://www.youtube-nocookie.com/embed/7dVwlbHvV0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>
+            </div>
+            <h3>[OUTBACK X LIA KIM] 2019 아웃백 토마호크 스테이크</h3>
+          </a></li>
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img5.png" alt="동영상이미지2">
+              <iframe src="https://www.youtube-nocookie.com/embed/c0IKrfzvHuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>
+            </div>
+            <h3>아웃백 블랙라벨 램 스테이크 컬렉션</h3>
+          </a></li>
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img6.png" alt="동영상이미지2">
+              <iframe src="https://www.youtube-nocookie.com/embed/AhXGW-mBJ6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>
+            </div>
+            <h3>아웃백 더 레드 스테이크</h3>
+          </a></li>
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img7.png" alt="동영상이미지2">
+              <iframe src="https://www.youtube-nocookie.com/embed/rQU88bSZy_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>
+            </div>
+            <h3>아웃백 블랙 라벨 스테이크 볼드 & 와일드</h3>
+          </a></li>
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img8.png" alt="동영상이미지2">
+              <iframe src="https://www.youtube-nocookie.com/embed/0uUM8Id791E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>
+            </div>
+            <h3>부메랑 캠페인 '만남편'</h3>
+          </a></li>
+          <li><a href="#a">
+            <div class="videoGallery_slide_img">
+              <img src="images/video_img9.png" alt="동영상이미지2">
+              <iframe src="https://www.youtube-nocookie.com/embed/rBjN06ONJw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p><em class="play_animation_p">P</em><em class="play_animation_l">l</em><em class="play_animation_a">a</em><em class="play_animation_y">y</em>
+                <em class="play_animation_V">V</em><em class="play_animation_i">i</em><em class="play_animation_d">d</em><em class="play_animation_e">e</em><em class="play_animation_o">o</em></p>   
+            </div>
+            <h3>아웃백 딜리버리 옥외광고</h3>
+          </a></li>
+        </ul>
+        <span class="videoGallery_slide_prev">
+          <i class="xi-angle-left-thin"></i>
+        </span>
+        <span class="videoGallery_slide_next">
+          <i class="xi-angle-right-thin"></i>
+        </span>
+        <div class="videoGallery_slide_control">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>  <!--videoGallery_slide_wrap-->
+    </div>  <!--videoGallery_wrap-->
+  </section>  <!--section3-->
+
+  <section id="section4">
+    <div class="side_menu_wrap">
+      <div class="side_menu_tit">
+        <h2>Favorites & Side Dishes</h2>
+        <p>페이버릿 & 사이드메뉴</p>
+      </div>
+      <ul>
+        <li class="side_menu1"><a href="#a">
+          <img src="images/sideMenu_img1.png" alt="사이드메뉴 이미지">
+          <img class='side_menu_tabletImg' src="images/sideMenu_tablet_img1.png" alt="사이드메뉴 테블릿이미지">
+          <div class="side_menu_txt">
+            <h2>LUNCH SET</h2>
+            <p>새로워진 런치 세트를<br>
+              오후 5시까지 풀 코스로 부담없이 즐기세요</p>
+          </div>
+        </a></li>
+        <li class="side_menu2"><a href="#a">
+          <img src="images/sideMenu_img2.png" alt="사이드메뉴 이미지">
+          <img class='side_menu_tabletImg' src="images/sideMenu_tablet_img2.png" alt="사이드메뉴 테블릿이미지">
+          <div class="side_menu_txt">
+            <h2>PASTA & SALADS</h2>
+            <p>아웃백만의 시크릿 레시피로 숙성된<br>
+              소스의 깊은 맛과 신선한 재료의 풍미가<br>
+              더해진 아웃백 홈메이드 파스타와 샐러드</p>
+          </div>
+        </a></li>
+        <li class="side_menu3"><a href="#a">
+          <img src="images/sideMenu_img3.png" alt="사이드메뉴 이미지">
+          <img class='side_menu_tabletImg' src="images/sideMenu_tablet_img3.png" alt="사이드메뉴 테블릿이미지">
+          <div class="side_menu_txt">
+            <h2>WINES</h2>
+            <p>버라이어티한 와인과 함께<br>
+              아웃백 스테이크를 즐겨보세요</p>
+          </div>
+        </a></li>
+        <li class="side_menu4"><a href="#a">
+          <img src="images/sideMenu_img4.png" alt="사이드메뉴 이미지">
+          <img class='side_menu_tabletImg' src="images/sideMenu_tablet_img4.png" alt="사이드메뉴 테블릿이미지">
+          <div class="side_menu_txt">
+            <h2>DESSERTS & OTHERS</h2>
+            <p>달콤하고 신선한 아웃백만의 디저트&사이드<br>
+              에피타이저부터 디저트, 다양한 음료를 즐겨보세요</p>
+          </div>
+        </a></li>
+      </ul>
+    </div>
+  </section>  <!--section4-->
+
+  <section id="section5">
+    <div class="benefit_wrap">
+      <div class="benefit_bg"></div>
+      <div class="benefit_tit">
+        <h2>Outback Benefit</h2>
+        <p>다양한 맴버십과 제휴 할인 혜택</p>
+      </div>
+      <div class="benefit_coupon">
+        <ul>
+          <li>
+            <img src="images/coupon1.svg" alt="쿠폰">
+            <img class="coupon_hover_img" src="images/coupon_hover1.svg" alt="쿠폰이미지">
+            <p>2021 신규가입 <br>월컴쿠폰</p>
+          </li>
+          <li>
+            <img src="images/coupon2.svg" alt="쿠폰">
+            <img class="coupon_hover_img" src="images/coupon_hover2.svg" alt="쿠폰이미지">
+            <p>블랙라벨세트 <br>할인쿠폰</p>
+          </li>
+          <li>
+            <img src="images/coupon3.svg" alt="쿠폰">
+            <img class="coupon_hover_img" src="images/coupon_hover3.svg" alt="쿠폰이미지">
+            <p>1년 1회 <br>생일기념 쿠폰</p>
+          </li>
+          <li>
+            <img src="images/coupon4.svg" alt="쿠폰">
+            <img class="coupon_hover_img" src="images/coupon_hover4.svg" alt="쿠폰이미지">
+            <p>와인 2잔 <br>8,700원 이벤트</p>
+          </li>
+          <li>
+            <img src="images/coupon5.svg" alt="쿠폰">
+            <img class="coupon_hover_img" src="images/coupon_hover5.svg" alt="쿠폰이미지">
+            <p>부메랑캠페인 <br>할인 이벤트</p>
+          </li>
+          <li>
+            <img src="images/coupon6.svg" alt="쿠폰">
+            <img class="coupon_hover_img" src="images/coupon_hover6.svg" alt="쿠폰이미지">
+            <p>10%할인 <br>또는 2%적립</p>
+          </li>
+        </ul>
+
+        <div class="boomerang_coupon_area">
+          <div class="boomerang_coupon">
+            <h3>BOOMERANG</h3>
+            <h2>REWARD</h2>
+            <p>부메랑 카드<br>
+              리워드 혜택을 만나보세요</p>
+          </div>
+          <div class="boomerang_coupon_viewMore">
+            <p><em class="play_animation_p">V</em><em class="play_animation_l">I</em><em class="play_animation_a">E</em><em class="play_animation_y">W</em>
+              <em class="play_animation_V">M</em><em class="play_animation_i">O</em><em class="play_animation_d">R</em><em class="play_animation_e">E</em></p>
+            <span><i class="xi-long-arrow-right"></i></span>
+          </div>
+          <span class="boomerang_border1"></span><span class="boomerang_border2"></span>
+          <span class="boomerang_border3"></span><span class="boomerang_border4"></span>
+        </div>  <!--boomerang_coupon_area-->
+      </div>  <!--benefit_coupon-->
+    </div>
+  </section>  <!--section5-->
+
+  <section id="section6">
+    <div class="pressCenter_wrap">
+      <div class="pressCenter_left">
+        <div class="pressCenter_tit">
+          <h2>Press Center</h2>
+          <p>프레스 센터</p>
+        </div>
+        <div class="pressCenter_viewMore">
+          <p>VIEW MORE</p>
+          <p>VIEW MORE</p>
+          <span><i class="xi-long-arrow-right"></i></span>
+        </div>
+      </div>  <!--pressCenter_left-->
+      <div class="pressCenter_right">
+        <ul>
+          <li>
+            <p>2021.08.20</p>
+            <span>NEWS</span>
+            <em></em>
+            <h3>아웃백 스테이크하우스, 프리미엄 와인 특화 매장 ‘동탄 롯데점’ 오픈</h3>
+          </li>
+          <li>
+            <p>2021.08.18</p>
+            <span>NEWS</span>
+            <em></em>
+            <h3>아웃백, ‘No Rules, Just RIGHT’ 슬로건 담은 신규 브랜드 캠페인 영상 온에어</h3>
+          </li>
+          <li>
+            <p>2021.07.27</p>
+            <span>NEWS</span>
+            <em></em>
+            <h3>아웃백 스테이크하우스, 와인 특화 매장으로 프리미엄 다이닝 레스토랑 정체성 강화</h3>
+          </li>
+          <li>
+            <p>2021.06.21</p>
+            <span>NEWS</span>
+            <em></em>
+            <h3>아웃백 스테이크하우스, 7번째 와인 특화 매장 '용산아이파크몰점' 오픈</h3>
+          </li>
+          <li>
+            <p>2021.06.14</p>
+            <span>NEWS</span>
+            <em></em>
+            <h3>아웃백 스테이크하우스, ‘블랙라벨 스프링 램 스테이크’ 출시</h3>
+          </li>
+          <li>
+            <p>2021.05.04</p>
+            <span>NEWS</span>
+            <em></em>
+            <h3>아웃백 스테이크하우스, 6번째 와인 특화 매장 ‘경기신세계점’ 오픈</h3>
+          </li>
+          <li>
+            <p>2021.04.23</p>
+            <span>NEWS</span>
+            <em></em>
+            <h3>아웃백스테이크하우스, 갤러리아백화점 광교점에서 ‘스테이크 쿠킹 클래스’ 진행</h3>
+          </li>
+        </ul>
+      </div>  <!--pressCenter_right-->
+    </div>  <!--pressCenter_wrpa-->
+  </section>  <!--section6-->
+
+  <section id="section7">
+    <div class="info_wrap">
+      <div class="info_top_wrap">
+        <ul>
+          <li><a href="#a">
+            <div class="info_top_img info_top_img1"></div>
+            <img class="info_top_tabletImg" src="images/footer_tablet_img1.png" alt="테블릿 예약 이미지">
+            <div class="info_more">
+              <div>
+                <h3>RESERVATION</h3>
+                <p>예약하기</p>
+              </div>
+              <span><i class="xi-angle-right-thin"></i></span>
+              <p><i class="xi-long-arrow-right"></i></p>
+            </div>
+          </a></li>
+          <li><a href="#a">
+            <div class="info_top_img info_top_img2"></div>
+            <img class="info_top_tabletImg" src="images/footer_tablet_img2.png" alt="테블릿 예약 이미지">
+            <div class="info_more">
+              <div>
+                <h3>SAVE POINT</h3>
+                <p>포인트 적립</p>
+              </div>
+              <span><i class="xi-angle-right-thin"></i></span>
+              <p><i class="xi-long-arrow-right"></i></p>
+            </div>
+          </a></li>
+          <li><a href="#a">
+            <div class="info_top_img info_top_img3"></div>
+            <img class="info_top_tabletImg" src="images/footer_tablet_img3.png" alt="테블릿 예약 이미지">
+            <div class="info_more">
+              <div>
+                <h3>DELIVERY</h3>
+                <p>딜리버리 전화주문</p>
+                <span>1811-3650</span>
+              </div>
+              <span><i class="xi-angle-right-thin"></i></span>
+              <p><i class="xi-long-arrow-right"></i></p>
+            </div>
+          </a></li>
+          </a></li>
+        </ul>
+      </div>  <!--info_top_wrap-->
+
+      <div class="info_map_wrap">
+        <div style="width: 100%;" id="daumRoughmapContainer1632811730838" class="root_daum_roughmap root_daum_roughmap_landing map"> 
+        </div>
+        <div class="mpa_search_area">
+          <p>현재 고객님과 가까운<br>
+            매장을 안내해 드립니다.</p>
+          <div>
+            <input type="text" placeholder="매장명 및 지역 검색">
+            <span><i class="xi-search"></i></span>
+          </div>  
+        </div>
+      </div>  <!--info_map_wrap-->
+    </div>  <!--info_wrap-->
+  </section>  <!--section7-->
+
+  <footer>
+    <div class="footer_top">
+      <ul>
+        <li><a href="#a">
+          <span><i class="xi-touch"></i></span>
+          <p>아웃백 소개</p>
+        </a></li>
+        <li><a href="#a">
+          <span><i class="xi-user-plus-o"></i></span>
+          <p>채용 안내</p>
+        </a></li>
+        <li><a href="#a">
+          <span><i class="xi-network-home"></i></span>
+          <p>신규 입점 제의</p>
+        </a></li>
+      </ul>
+    </div>  <!--footer_top-->
+    <div class="footer_wrap">
+      <div class="footer_middle">
+        <div class="footer_logo_sns">
+          <h1><img src="images/foot_logo.svg" alt="푸터로고"></h1>
+          <ul>
+            <li><a href="#a"><i class="xi-instagram"></i></a></li>
+            <li><a href="#a"><i class="xi-facebook-official"></i></a></li>
+            <li><a href="#a"><i class="xi-youtube-play"></i></a></li>
+            <li><a href="#a"><i class="xi-kakaotalk"></i></a></li>
+          </ul>
+        </div>
+        <ul>
+          <li><a href="#a">개인정보처리방침</a></li>
+          <li><a href="#a">이용약관</a></li>
+          <li><a href="#a">윤리경영</a></li>
+          <li><a href="#a">공지사항</a></li>
+          <li><a href="#a">모바일 아웃백</a></li>
+          <li><a href="#a">사이트맵</a></li>
+        </ul>  
+      </div>  <!--footer_middle-->
+
+      <div class="footer_bottom">
+        <div class="footer_left_info">
+          <p><span>대표이사: 이상일</span> <span>서울 강남구 삼성로 508 2층</span></p>
+          <p><span>사업자등록번호: 211-86-42619</span> <span>통신판매업신고번호: 제2019-서울강남-02729호</span></p>
+          <p>copyright ⓒ OUTBACK STEAKHOUSE all rights reserved.</p>
+        </div>
+        <div class="footer_right_info">
+          <div>
+            <p>홈페이지 관련 문의: 070-7096-0416</p>
+            <p><span>대표번호: <em>1577-0500</em></span> <span>딜리버리 주문번호: <em>1811-3650</em></span></p>
+            <p>상담시간: 월~금 10:00~17:00(토/일, 공휴일 휴무, 점심시간 12:00~13:30)</p>
+          </div>
+        </div>
+      </div>  <!--footer_bottom-->
+    </div>  <!--footer_wrap-->
+  </footer> 
+  <div class="scroll_top"><i class="xi-angle-up-thin"></i></div>
+<script src="/js/script1(header_section1_section2).js"></script>
+<script src="/js/script2(section3).js"></script>
+<script src="/js/script3(section6_section7).js"></script>
+</body>
+</html>

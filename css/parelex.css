@@ -1,0 +1,140 @@
+/* section2 */
+.main_visual_tit {transition: transform 1s ease-out, opacity 1s ease-out; opacity: 0; transform: translateY(100%);}
+.main_visual_tit.scroll {transform: none; opacity: 1;}
+
+.main_visual_t_bone_img {box-shadow: 0 0 50px rgba(0, 0, 0, 0.0); transition: transform 0.6s ease-in-out, box-shadow 2.5s ease-in-out;}
+.main_visual_t_bone_img>img:first-child {width: 0; transition: transform 0.6s ease-in-out, width 0.8s ease-in-out;}
+
+.main_visual_t_bone_area.scroll .main_visual_t_bone_img {box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);}
+.main_visual_t_bone_area.scroll .main_visual_t_bone_img>img:first-child {width: 100%;}
+
+.main_visual_t_bone_txt>p:nth-child(1) {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_t_bone_txt>h2 {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_t_bone_txt>p:nth-child(3) {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_t_bone_txt_price1 {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_t_bone_txt_price2 {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_viewMore1 {transition: border 0.3s ease-in-out, opacity 1s ease-out; opacity: 0;}
+
+.main_visual_t_bone_txt_wrap.scroll .main_visual_t_bone_txt>p:nth-child(1) {transform: none; animation: upslide 1.2s ease-out; animation-fill-mode: forwards;}
+.main_visual_t_bone_txt_wrap.scroll .main_visual_t_bone_txt>h2 {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.05s; animation-fill-mode: forwards;}
+.main_visual_t_bone_txt_wrap.scroll .main_visual_t_bone_txt>p:nth-child(3) {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.15s; animation-fill-mode: forwards;}
+.main_visual_t_bone_txt_wrap.scroll .main_visual_t_bone_txt_price1 {animation: upslide 1.2s ease-out; animation-delay: 0.25s; animation-fill-mode: forwards;}
+.main_visual_t_bone_txt_wrap.scroll .main_visual_t_bone_txt_price2 {animation: upslide 1.2s ease-out; animation-delay: 0.3s; animation-fill-mode: forwards;}
+.main_visual_t_bone_txt_wrap.scroll .main_visual_viewMore1 {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.4s; animation-fill-mode: forwards;}
+
+.main_visual_tomahawk_img {box-shadow: 0 0 50px rgba(0, 0, 0, 0.0); transition: transform 0.6s ease-in-out, box-shadow 2.5s ease-in-out;}
+.main_visual_tomahawk_img>img:first-child {width: 0; transition: transform 0.6s ease-in-out, width 0.8s ease-in-out;}
+
+.main_visual_tomahawk_area.scroll .main_visual_tomahawk_img {box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);}
+.main_visual_tomahawk_area.scroll .main_visual_tomahawk_img>img:first-child {width: 100%;}
+
+.main_visual_tomahawk_txt>p:nth-child(1) {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_tomahawk_txt>h2 {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_tomahawk_txt>p:nth-child(3) {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_tomahawk_txt_price {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_viewMore2 {transition: border 0.3s ease-in-out, opacity 1s ease-out; opacity: 0;}
+
+.main_visual_tomahawk_txt_wrap.scroll .main_visual_tomahawk_txt>p:nth-child(1) {transform: none; animation: upslide 1.2s ease-out; animation-fill-mode: forwards;}
+.main_visual_tomahawk_txt_wrap.scroll .main_visual_tomahawk_txt>h2 {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.05s; animation-fill-mode: forwards;}
+.main_visual_tomahawk_txt_wrap.scroll .main_visual_tomahawk_txt>p:nth-child(3) {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.15s; animation-fill-mode: forwards;}
+.main_visual_tomahawk_txt_wrap.scroll .main_visual_tomahawk_txt_price {animation: upslide 1.2s ease-out; animation-delay: 0.25s; animation-fill-mode: forwards;}
+.main_visual_tomahawk_txt_wrap.scroll .main_visual_viewMore2 {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.4s; animation-fill-mode: forwards;}
+
+.main_visual_black_img {box-shadow: 0 0 50px rgba(0, 0, 0, 0.0); transition: transform 0.6s ease-in-out, box-shadow 2.5s ease-in-out;}
+.main_visual_black_img>img:first-child {width: 0; transition: transform 0.6s ease-in-out, width 0.8s ease-in-out;}
+
+.main_visual_black_area.scroll .main_visual_black_img {box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);}
+.main_visual_black_area.scroll .main_visual_black_img>img:first-child {width: 100%;}
+
+.main_visual_black_txt>p:nth-child(1) {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_black_txt>h2 {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_black_txt>p:nth-child(3) {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_black_txt_price1 {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_black_txt_price2 {transition: opacity 1s ease-out; opacity: 0;}
+.main_visual_viewMore3 {transition: border 0.3s ease-in-out, opacity 1s ease-out; opacity: 0;}
+
+.main_visual_black_txt_wrap.scroll .main_visual_black_txt>p:nth-child(1) {transform: none; animation: upslide 1.2s ease-out; animation-fill-mode: forwards;}
+.main_visual_black_txt_wrap.scroll .main_visual_black_txt>h2 {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.05s; animation-fill-mode: forwards;}
+.main_visual_black_txt_wrap.scroll .main_visual_black_txt>p:nth-child(3) {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.15s; animation-fill-mode: forwards;}
+.main_visual_black_txt_wrap.scroll .main_visual_black_txt_price1 {animation: upslide 1.2s ease-out; animation-delay: 0.25s; animation-fill-mode: forwards;}
+.main_visual_black_txt_wrap.scroll .main_visual_black_txt_price2 {animation: upslide 1.2s ease-out; animation-delay: 0.3s; animation-fill-mode: forwards;}
+.main_visual_black_txt_wrap.scroll .main_visual_viewMore3 {transform: none; animation: upslide 1.2s ease-out; animation-delay: 0.4s; animation-fill-mode: forwards;}
+
+/* section2 메뉴*/
+.menu_slide_wrap {opacity: 0; transform: translateY(25%); transition: transform 1s ease-out, opacity 1s ease-out;}
+.menu_slide_wrap.scroll {opacity: 1; transform: none;}
+
+.menu_slide_viewMore {transform: translateY(100%); opacity: 0; transition: border 0.3s ease-in-out, transform 1s ease-out, opacity 1s ease-out;}
+.menu_slide_viewMore.scroll {transform: none; opacity: 1;}
+
+
+/* section3 */
+.videoGallery_tit {transition: transform 1s ease-out, opacity 1s ease-out; opacity: 0; transform: translateY(100%);}
+.videoGallery_tit.scroll {transform: none; opacity: 1;}
+.videoGallery_slider>li {position: relative;}
+.videoGallery_slider>li::after {position: absolute; content: ''; display: block; width: 100%; height: 100%; background: #111; top: 0; transition:  height 1s ease-out;}
+.videoGallery_slide_wrap.scroll .videoGallery_slider>li::after {height: 0;}
+
+
+/* section4 */
+.side_menu_tit {transition: transform 1s ease-out, opacity 1s ease-out; opacity: 0; transform: translateY(100%);}
+.side_menu_tit.scroll {transform: none; opacity: 1;}
+.side_menu_wrap>ul>li {transform: translateY(25%); opacity: 0; transition: opacity 1s ease-out, transform 1s ease-out;}
+.side_menu1.scroll {transform: none; opacity: 1; pointer-events: none;}
+.side_menu2.scroll {transform: none; opacity: 1; pointer-events: none;}
+.side_menu3.scroll {transform: none; opacity: 1; pointer-events: none;}
+.side_menu4.scroll {transform: none; opacity: 1; pointer-events: none;}
+
+
+/* section5 */
+.benefit_tit {transition: transform 1s ease-out, opacity 1s ease-out; opacity: 0; transform: skew(90deg);}
+.benefit_bg {opacity: 0; transition: opacity 2s ease-in-out;}
+.benefit_wrap.scroll .benefit_tit {transform: none; opacity: 1;}
+.benefit_wrap.scroll .benefit_bg {opacity: 1;}
+
+.benefit_coupon>ul>li {transform: scale(0); opacity: 0;}
+
+.benefit_coupon>ul.scroll>li {animation: scale_up 1s ease-in-out; animation-fill-mode: forwards;}
+.benefit_coupon>ul.scroll>li:nth-child(2) {animation-delay: 0.1s;}
+.benefit_coupon>ul.scroll>li:nth-child(3) {animation-delay: 0.2s;}
+.benefit_coupon>ul.scroll>li:nth-child(4) {animation-delay: 0.3s;}
+.benefit_coupon>ul.scroll>li:nth-child(5) {animation-delay: 0.4s;}
+.benefit_coupon>ul.scroll>li:nth-child(6) {animation-delay: 0.5s;}
+
+.boomerang_coupon_area {position: relative; width: 500px; height: 180px; margin: 80px auto 0 auto; border: 4px solid transparent; cursor: pointer;}
+.boomerang_coupon_area>span {position: absolute; display: block; background: #BEBCBC;}
+.boomerang_border2 {top: 0; left: 0; width: 0; height: 4px; transition: width 0.4s ease-in-out;}
+.boomerang_border3 {top: 0; right: 0; width: 4px; height: 0%; transition: height 0.4s ease-in-out; transition-delay: 0.3s;}
+.boomerang_border4 {bottom: 0; right: 0; width: 0%; height: 4px; transition: width 0.4s ease-in-out; transition-delay: 0.6s;}
+.boomerang_border1 {bottom: 0; left: 0; width: 4px; height: 0; transition: height 0.4s ease-in-out; transition-delay: 0.8s;}
+
+.boomerang_coupon_area.scroll .boomerang_border1 {height: 100%;}
+.boomerang_coupon_area.scroll .boomerang_border2 {width: 100%;}
+.boomerang_coupon_area.scroll .boomerang_border3 {height: 100%;}
+.boomerang_coupon_area.scroll .boomerang_border4 {width: 100%;}
+
+
+/* section6 */
+.pressCenter_tit {opacity: 0; transform: translateX(50%); transition: opacity 1.3s ease-out, transform 1.3s ease-out;}
+.pressCenter_viewMore {opacity: 0; transform: translateX(50%); transition: border 0.3s ease-in-out, opacity 1.3s ease-out, transform 1.3s ease-out;}
+.pressCenter_wrap.scroll .pressCenter_tit {transform: none; opacity: 1;}
+.pressCenter_wrap.scroll .pressCenter_viewMore {transform: none; opacity: 1;}
+
+.pressCenter_right>ul>li {pointer-events: none;}
+.pressCenter_right>ul>li::before {position: absolute; content: ''; display: block; top: 0; right: 0; width: 100%; height: 100%; background: #111; transition: height 1s ease-out;}
+
+.pressCenter_right.scroll>ul>li:nth-child(1)::before {height: 0;}
+.pressCenter_right.scroll>ul>li:nth-child(2)::before {height: 0; transition-delay: 0.15s;}
+.pressCenter_right.scroll>ul>li:nth-child(3)::before {height: 0; transition-delay: 0.3s;}
+.pressCenter_right.scroll>ul>li:nth-child(4)::before {height: 0; transition-delay: 0.45s;}
+.pressCenter_right.scroll>ul>li:nth-child(5)::before {height: 0; transition-delay: 0.7s;}
+.pressCenter_right.scroll>ul>li:nth-child(6)::before {height: 0; transition-delay: 0.85s;}
+.pressCenter_right.scroll>ul>li:nth-child(7)::before {height: 0; transition-delay: 1s;}
+
+
+
+
+
+/* section2 */
+@keyframes upslide {from {opacity: 0; transform: translateY(150px);} to {transform: translateY(0); opacity: 1;}}
+@keyframes scale_up {from {transform: scale(0); opacity: 0;} to {transform: scale(1); opacity: 1;}}
